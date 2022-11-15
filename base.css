@@ -342,7 +342,7 @@ a{
     display: flex;
     margin: 6px 0;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 1px solid var(--unable-color);
     overflow: hidden;
 }
