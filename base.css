@@ -371,9 +371,11 @@ a{
 input:not(:placeholder-shown) ~ #menu-search{
     display: block;
 }
+
+input:not(:focus) ~ #menu-search,
 input:placeholder-shown ~ #menu-search{
     display: none;
-  }
+}
 
 .item-search:hover{
     border-color: var(--success-color);
