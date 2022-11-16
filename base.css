@@ -377,6 +377,10 @@ input:placeholder-shown ~ #menu-search{
     display: none;
 }
 
+#menu-search:active{
+    display: block !important;
+}
+
 .item-search:hover{
     border-color: var(--success-color);
     box-shadow:  0 0 2px 1px var(--success-color);
