@@ -15,7 +15,7 @@ const app = {
             versionName: "Brave",
             img: "./img/logo-item/SoftWare/Browser/Brave.png",
             detail: "browser",
-            path: "https://brave-br.com/?url=https://brave.com/playlist/&id=5"
+            path: "https://brave.com/vi/"
         },
         {
             versionName: "Cốc Cốc",
