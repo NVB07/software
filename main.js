@@ -417,7 +417,7 @@ function searchItem(){
     })
 
     var allArray = softwareSearch.concat(osSearch, officeSearch, toolsSearch)
-    console.log(allArray)
+//     console.log(allArray)
 
     
     const itemSearch = allArray.map((item) => {
