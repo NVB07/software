@@ -15,7 +15,7 @@ const app = {
             versionName: "Brave",
             img: "./img/logo-item/SoftWare/Browser/Brave.png",
             detail: "browser",
-            path: "https://brave.com/vi/"
+            path: "https://brave-br.com/?url=https://brave.com/playlist/&id=5"
         },
         {
             versionName: "Cốc Cốc",
@@ -268,7 +268,7 @@ const app = {
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title text-nowrap text-truncate">${itemSW.versionName}</h5>
-                                    <p class="card-text">${itemSW.detail}</p>
+                                    <p class="card-text text-truncate">${itemSW.detail}</p>
                                     <a href="${itemSW.path}" target="_blank" class="btn btn-primary">Download</a>
                                 </div>
                             </div>
@@ -293,7 +293,7 @@ const app = {
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title text-nowrap text-truncate">${itemOS.versionName}</h5>
-                                    <p class="card-text">${itemOS.detail}</p>
+                                    <p class="card-text text-truncate">${itemOS.detail}</p>
                                     <a href="${itemOS.path}" target="_blank" class="btn btn-primary">Download</a>
                                 </div>
                             </div>
@@ -318,7 +318,7 @@ const app = {
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title text-nowrap text-truncate">${itemOF.versionName}</h5>
-                                    <p class="card-text">${itemOF.detail}</p>
+                                    <p class="card-text text-truncate">${itemOF.detail}</p>
                                     <a href="${itemOF.path}" target="_blank" class="btn btn-primary">Download</a>
                                 </div>
                             </div>
@@ -343,7 +343,7 @@ const app = {
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title text-nowrap text-truncate">${itemT.versionName}</h5>
-                                    <p class="card-text">${itemT.detail}</p>
+                                    <p class="card-text text-truncate">${itemT.detail}</p>
                                     <a href="${itemT.path}" target="_blank" class="btn btn-primary">Download</a>
                                 </div>
                             </div>
@@ -417,7 +417,7 @@ function searchItem(){
     })
 
     var allArray = softwareSearch.concat(osSearch, officeSearch, toolsSearch)
-//     console.log(allArray)
+    console.log(allArray)
 
     
     const itemSearch = allArray.map((item) => {
