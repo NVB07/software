@@ -46,7 +46,7 @@ const app = {
             versionName: "Bandicam",
             img: "./acssets/img/logo-item/SoftWare/Utilities/Bandicam.png",
             detail: "Utilities",
-            path: "./details/bandicam/detail-bdcam.html"
+            path: "./acssets/details/bandicam/detail-bdcam.html"
         },
         {
             versionName: "CapCut PC",
@@ -88,7 +88,7 @@ const app = {
             versionName: "Internet Download Manager",
             img: "./acssets/img/logo-item/SoftWare/Utilities/IDM.png",
             detail: "Utilities",
-            path: "./details/IDM-active/detail_IDM.html"
+            path: "./acssets/details/IDM-active/detail_IDM.html"
         },
         {
             versionName: "Zalo",
@@ -100,7 +100,7 @@ const app = {
             versionName: "Win To USB",
             img: "./acssets/img/logo-item/SoftWare/Utilities/WinToUSB.webp",
             detail: "Utilities",
-            path: "./details/Win_to_USB/detail_Win_to_usb.html"
+            path: "./acssets/details/Win_to_USB/detail_Win_to_usb.html"
         },
         {
             versionName: "Your Unistaller",
@@ -239,7 +239,7 @@ const app = {
             versionName: "Activate AIO Tools",
             img: "./acssets/img/logo-item/Tools/cmd.png",
             detail: "win, office",
-            path: "./details/AIO/detail_AIO.html"
+            path: "./acssets/details/AIO/detail_AIO.html"
         },
         {
             versionName: "Control Sercurity",
