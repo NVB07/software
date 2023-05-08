@@ -1,6 +1,9 @@
 // const $$ = document.querySelectorAll.bind(document);
 // const $ = document.querySelector.bind(document);
-alert("Some download links are not accessible. We will fix it soon.");
+setTimeout(()=> {
+    alert("Some download links are not accessible. We will fix it soon.");
+},3000)
+
 
 const itemSoftware = document.getElementById('software');
 const itemOS = document.getElementById('os');
